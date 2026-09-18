@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#102622" />
+    <title>Three.js Axie Mixer 3D</title>
+  </head>
+  <body>
+    <main id="app" aria-label="Three.js Axie Mixer demo">
+      <canvas id="stage" aria-label="Interactive Axie preview"></canvas>
+      <header class="topbar">
+        <div>
+          <span class="eyebrow">STANDALONE THREE.JS PACKAGE</span>
+          <h1>Axie Mixer 3D</h1>
+        </div>
+        <div class="status" role="status"><i></i><span id="status">Loading manifest…</span></div>
+      </header>
+      <section class="axie-id-loader" aria-label="Load an Axie by ID">
+        <form id="axie-id-form">
+          <label for="axie-id">
+            <span>Axie ID</span>
+            <input
+              id="axie-id"
+              name="axieId"
+              type="text"
+              inputmode="numeric"
+              autocomplete="off"
+              pattern="[0-9]{1,12}"
+              maxlength="12"
+              value="9999"
+              aria-describedby="axie-id-feedback"
+            />
+          </label>
+          <button id="axie-id-submit" type="submit">Load Axie</button>
+        </form>
+        <p id="axie-id-feedback" aria-live="polite">Enter an ID to resolve its genes and mix the real Axie.</p>
+        <div class="eye-presets" aria-label="Animated eye presets">
+          <span>Custom animated eyes</span>
+          <button type="button" data-eye-preset="clear" aria-pressed="false">View Clear L1</button>
+          <button type="button" data-eye-preset="kotaro" aria-pressed="false">View Kotaro L1</button>
+        </div>
+        <p class="eye-preset-help">One click retargets the eye to the selected body and focuses the face · gaze, blink, and expressions included</p>
+        <div class="special-presets" aria-label="Special source part previews">
+          <span>Special source previews</span>
+          <button type="button" data-special-preset="nightmare-body" aria-pressed="false">Nightmare Body</button>
+          <button type="button" data-special-preset="nightmare-parts" aria-pressed="false">Nightmare Parts</button>
+          <button type="button" data-special-preset="japanese-parts" aria-pressed="false">Japanese Parts</button>
+          <button type="button" data-special-preset="xmas-i-parts" aria-pressed="false">Xmas I Parts</button>
+          <button type="button" data-special-preset="xmas-ii-parts" aria-pressed="false">Xmas II Parts</button>
+        </div>
+        <p class="special-preset-help">Manifest-backed L2 showcases · all individual options remain available in Creator (X)</p>
+        <div class="weapon-picker" aria-label="Source weapon inventory">
+          <span>Unity weapon source inventory</span>
+          <label for="weapon-family">
+            <span>Family</span>
+            <select id="weapon-family" name="weapon" aria-describedby="weapon-fidelity"></select>
+          </label>
+          <label for="weapon-variant">
+            <span>Included source variant</span>
+            <select id="weapon-variant" name="weaponVariant" aria-describedby="weapon-fidelity"></select>
+          </label>
+        </div>
+        <p id="weapon-fidelity" class="weapon-fidelity" aria-live="polite">Browse and equip all 87 included variants with their source-authored body animation family.</p>
+        <section class="unity-animator-sample" aria-label="Official Unity AnimatorSample controls">
+          <header>
+            <span>Unity AnimatorSample</span>
+            <small>Exact controller surface</small>
+          </header>
+          <label class="unity-slider" for="unity-time-scale">
+            <span>Time Scale</span>
+            <output id="unity-time-scale-value" for="unity-time-scale">1.00</output>
+            <input id="unity-time-scale" type="range" min="0" max="1" step="0.01" value="1" />
+          </label>
+          <label class="unity-slider" for="unity-move-speed">
+            <span>Move Speed</span>
+            <output id="unity-move-speed-value" for="unity-move-speed">0.00</output>
+            <input id="unity-move-speed" type="range" min="0" max="3" step="0.01" value="0" />
+          </label>
+          <label class="unity-toggle" for="unity-stunned">
+            <input id="unity-stunned" type="checkbox" />
+            <span>Stunned</span>
+          </label>
+          <div class="unity-command-grid">
+            <button id="unity-dead" type="button">Dead</button>
+            <button id="unity-restart" type="button">Restart</button>
+            <button id="unity-attack" type="button">Attack</button>
+            <button id="unity-skill" type="button">Skill</button>
+          </div>
+          <p id="unity-animator-feedback" aria-live="polite">Attack and Skill unlock when the selected source weapon variant is equipped.</p>
+          <p class="unity-source-note">Arbitrary exported clips are secondary debug tools and appear only with <code>?debugClips=1</code>.</p>
+        </section>
+      </section>
+      <section class="metrics" aria-label="Runtime diagnostics">
+        <span><b id="body">—</b> body</span>
+        <span><b id="rigs">—</b> rigs</span>
+        <span><b id="clips">—</b> clips</span>
+        <span><b id="quality">—</b> quality</span>
+        <span><b id="cache">—</b> cache</span>
+        <span><b id="weapon-active">none</b> weapon</span>
+      </section>
+      <p class="controls">WASD translate (debug) · Shift faster · drag orbit · X creator · E eyes · B blink</p>
+      <div id="ui"></div>
+    </main>
+    <script type="module" src="/main.ts"></script>
+  </body>
+</html>

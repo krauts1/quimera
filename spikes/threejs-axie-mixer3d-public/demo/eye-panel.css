@@ -1,0 +1,105 @@
+.axie-eye-host {
+  --eye-accent: #72f5d0;
+  --eye-ink: #f2fff9;
+  --eye-muted: #a7cbc0;
+  position: absolute;
+  z-index: 10;
+  inset: 0;
+  pointer-events: none;
+}
+
+.axie-eye-toggle {
+  position: absolute;
+  top: max(216px, calc(env(safe-area-inset-top) + 196px));
+  right: max(24px, env(safe-area-inset-right));
+  display: grid;
+  grid-template-columns: 26px auto auto;
+  min-height: 40px;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 7px 5px 6px;
+  border: 1px solid rgba(255,255,255,.16);
+  border-radius: 14px;
+  color: var(--eye-ink);
+  background: rgba(11,47,43,.86);
+  box-shadow: 0 12px 34px rgba(3,22,19,.28);
+  backdrop-filter: blur(18px) saturate(1.15);
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.axie-eye-toggle > span { display: grid; width: 26px; height: 26px; place-items: center; border-radius: 50%; color: #093329; background: var(--eye-accent); }
+.axie-eye-toggle b { font: 700 9px/1 ui-monospace, monospace; letter-spacing: .12em; }
+.axie-eye-toggle i { padding: 5px 6px; border-radius: 7px; color: var(--eye-muted); background: rgba(255,255,255,.055); font: 700 8px/1 ui-monospace, monospace; font-style: normal; }
+.axie-eye-toggle:disabled { opacity: .42; cursor: default; }
+.axie-eye-toggle:hover:not(:disabled), .axie-eye-toggle:focus-visible { border-color: rgba(114,245,208,.7); outline: none; }
+
+.axie-eye-panel {
+  position: absolute;
+  top: 16px;
+  right: max(16px, env(safe-area-inset-right));
+  bottom: 74px;
+  width: min(354px, calc(100vw - 32px));
+  overflow-y: auto;
+  border: 1px solid rgba(213,255,243,.16);
+  border-radius: 22px;
+  opacity: 0;
+  color: var(--eye-ink);
+  background: radial-gradient(circle at 100% 0, rgba(114,245,208,.14), transparent 34%), rgba(8,38,34,.96);
+  box-shadow: -18px 24px 80px rgba(3,20,18,.42);
+  backdrop-filter: blur(24px) saturate(1.18);
+  transform: translateX(calc(100% + 32px));
+  transition: opacity .2s ease, transform .28s cubic-bezier(.2,.8,.2,1);
+  pointer-events: none;
+}
+
+.axie-eye-host[data-open="true"] .axie-eye-panel { opacity: 1; transform: translateX(0); pointer-events: auto; }
+.axie-eye-host[data-open="true"] .axie-eye-toggle { opacity: 0; pointer-events: none; }
+
+.axie-eye-header { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 14px; padding: 20px 20px 14px; }
+.axie-eye-kicker { display: block; margin-bottom: 5px; color: var(--eye-accent); font: 700 8px/1 ui-monospace, monospace; letter-spacing: .17em; }
+.axie-eye-header h2 { margin: 0; font-size: 26px; line-height: 1; letter-spacing: -.04em; }
+.axie-eye-header p { margin: 7px 0 0; color: var(--eye-muted); font-size: 11px; line-height: 1.4; }
+.axie-eye-close { width: 34px; height: 34px; padding: 0 0 3px; border: 1px solid rgba(213,255,243,.15); border-radius: 50%; color: var(--eye-muted); background: rgba(255,255,255,.04); cursor: pointer; font-size: 22px; }
+
+.axie-eye-availability { margin: 0 20px 16px; padding: 11px; border: 1px solid rgba(255,207,105,.22); border-radius: 11px; color: #ffe4a8; background: rgba(255,194,69,.07); font-size: 10px; line-height: 1.4; }
+.axie-eye-section { margin: 0 20px; padding: 14px 0; border-top: 1px solid rgba(213,255,243,.1); }
+.axie-eye-section h3 { margin: 0 0 9px; color: var(--eye-muted); font: 700 8px/1 ui-monospace, monospace; letter-spacing: .14em; text-transform: uppercase; }
+.axie-eye-expression-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 6px; }
+.axie-eye-expression-grid button, .axie-eye-gaze-modes button, .axie-eye-center, .axie-eye-actions button { min-height: 34px; border: 1px solid rgba(213,255,243,.13); border-radius: 9px; color: rgba(242,255,249,.8); background: rgba(255,255,255,.035); cursor: pointer; font: 700 9px/1 ui-monospace, monospace; }
+.axie-eye-expression-grid button[aria-pressed="true"], .axie-eye-gaze-modes button[aria-pressed="true"] { border-color: var(--eye-accent); color: #07352c; background: var(--eye-accent); }
+.axie-eye-expression-grid button:disabled, .axie-eye-gaze-modes button:disabled, .axie-eye-center:disabled, .axie-eye-actions button:disabled { opacity: .35; cursor: default; }
+.axie-eye-gaze-modes { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 6px; }
+.axie-eye-center { width: 100%; margin-top: 9px; }
+
+.axie-eye-range { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 6px 10px; align-items: center; margin-top: 11px; color: var(--eye-muted); font-size: 10px; }
+.axie-eye-range output { color: var(--eye-accent); font: 700 9px/1 ui-monospace, monospace; }
+.axie-eye-range input { grid-column: 1 / -1; width: 100%; accent-color: var(--eye-accent); }
+.axie-eye-range input:disabled { opacity: .3; }
+
+.axie-eye-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 7px; margin: 0 20px; padding: 14px 0; border-top: 1px solid rgba(213,255,243,.1); }
+.axie-eye-switch { grid-column: 1 / -1; display: flex; align-items: center; gap: 8px; min-height: 34px; color: var(--eye-muted); font-size: 10px; }
+.axie-eye-switch input { accent-color: var(--eye-accent); }
+.axie-eye-diagnostic { display: grid; grid-template-columns: repeat(3,1fr); gap: 6px; margin: 0 20px 20px; }
+.axie-eye-diagnostic div { min-width: 0; padding: 8px; border-radius: 9px; background: rgba(255,255,255,.035); }
+.axie-eye-diagnostic dt { color: var(--eye-muted); font: 700 7px/1 ui-monospace, monospace; letter-spacing: .1em; text-transform: uppercase; }
+.axie-eye-diagnostic dd { overflow: hidden; margin: 5px 0 0; color: var(--eye-accent); font: 700 9px/1 ui-monospace, monospace; text-overflow: ellipsis; }
+
+@media (max-width: 700px) {
+  .axie-eye-toggle { top: 296px; right: 18px; }
+  .axie-eye-panel { inset: 12px 12px 62px auto; width: min(350px, calc(100vw - 24px)); }
+}
+
+@media (max-width: 430px) {
+  /* Stack beneath Animations without covering the Axie loader/showcases. */
+  .axie-eye-toggle {
+    top: auto;
+    bottom: max(154px, calc(env(safe-area-inset-bottom) + 138px));
+  }
+  .axie-eye-toggle b { display: none; }
+  .axie-eye-panel { left: 12px; width: auto; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .axie-eye-panel { transition-duration: .01ms; }
+}

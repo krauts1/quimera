@@ -1,0 +1,2942 @@
+[
+ {
+  "id": "12258114",
+  "class": "bird",
+  "genes": "0x100000000000030001c160a042000000000100081000410400010008088081020001000c18004106000100101860810200010008084082040001001010a08504",
+  "parts": [
+   {
+    "id": "eyes-lucas",
+    "class": "bird",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-rosa",
+    "class": "plant",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-doubletalk",
+    "class": "bird",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-clamshell",
+    "class": "aquatic",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-balloon",
+    "class": "bird",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-nimo",
+    "class": "aquatic",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258113",
+  "class": "bird",
+  "genes": "0x100000000000030001412000c3080000000100081080430200010008106080020001001018a0450200010004082045060001001010a084020001000018804502",
+  "parts": [
+   {
+    "id": "eyes-lucas",
+    "class": "bird",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-bubblemaker",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-peace-maker",
+    "class": "bird",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-lagging",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-blue-moon",
+    "class": "aquatic",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-shiba",
+    "class": "beast",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258065",
+  "class": "mech",
+  "genes": "0x80000000000001000380e0e00008000000010008084141040001001408a045020001001030818506000100003001800c0001000c1001800c000100041020840a",
+  "parts": [
+   {
+    "id": "eyes-mavis",
+    "class": "bird",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-seaslug",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-toothless-bite",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-arco",
+    "class": "beast",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-shiitake",
+    "class": "plant",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-twin-tail",
+    "class": "bug",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258064",
+  "class": "mech",
+  "genes": "0x8000000000000100038100e10010000000010008084040040001001428a045020001001030814506000100101020c00c000100080801800c0001000410208002",
+  "parts": [
+   {
+    "id": "eyes-mavis",
+    "class": "bird",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-seaslug",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-tiny-turtle",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-teal-shell",
+    "class": "aquatic",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-balloon",
+    "class": "bird",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-twin-tail",
+    "class": "bug",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258062",
+  "class": "mech",
+  "genes": "0x80000000000001000381c0e10010000000010010104044040001001408a04502000100102881440c0001000030014106000100003001800c000100041020850c",
+  "parts": [
+   {
+    "id": "eyes-clear",
+    "class": "aquatic",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-gill",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-toothless-bite",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-arco",
+    "class": "beast",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-furball",
+    "class": "beast",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-twin-tail",
+    "class": "bug",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258059",
+  "class": "dawn",
+  "genes": "0x880000000000010000810060020c00000001000428a040040001001410a085040001000430a0c20c0001000c20008102000100083061020c0001000008210002",
+  "parts": [
+   {
+    "id": "eyes-kotaro",
+    "class": "bug",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-earwing",
+    "class": "bug",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-kotaro",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-strawberry-shortcake",
+    "class": "plant",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-tri-feather",
+    "class": "bird",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-cottontail",
+    "class": "beast",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258056",
+  "class": "bird",
+  "genes": "0x1000000000000100008120d0830c00000001000c108044040001001028a04002000100082080c20c000100102001400600010000200104060001000008004306",
+  "parts": [
+   {
+    "id": "eyes-confused",
+    "class": "plant",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-peace-maker",
+    "class": "bird",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-piranha",
+    "class": "aquatic",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-anemone",
+    "class": "aquatic",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-risky-beast",
+    "class": "beast",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-cottontail",
+    "class": "beast",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258052",
+  "class": "reptile",
+  "genes": "0x28000000000001000200c000c30c0000000100140800450a0001001428a045040001001418a085040001001418a085060001001410a10504000100143020c006",
+  "parts": [
+   {
+    "id": "eyes-gecko",
+    "class": "reptile",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-curved-spine",
+    "class": "reptile",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-tiny-turtle",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-cerastes",
+    "class": "reptile",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-tri-spikes",
+    "class": "reptile",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-grass-snake",
+    "class": "reptile",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258050",
+  "class": "reptile",
+  "genes": "0x28000000000001006000c060430800000001001408a08404000100142841430a00010014206102040001000420a1010c00010014104105040001001418a0c502",
+  "parts": [
+   {
+    "id": "eyes-gecko",
+    "class": "reptile",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-small-frill",
+    "class": "reptile",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-tiny-turtle",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-pliers",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-tri-spikes",
+    "class": "reptile",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-tiny-dino",
+    "class": "reptile",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258049",
+  "class": "reptile",
+  "genes": "0x28000000000001000080a050820800000001001428208008000100140820800a0001001420a0c008000100041821440200010004184105040001000418210002",
+  "parts": [
+   {
+    "id": "eyes-topaz",
+    "class": "reptile",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-small-frill",
+    "class": "reptile",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-toothless-bite",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-caterpillars",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-buzz-buzz",
+    "class": "bug",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-fish-snack",
+    "class": "bug",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258041",
+  "class": "aquatic",
+  "genes": "0x200000000000010002c16040c30c00000001000820a144080001001010a104040001001020a0c406000100101080810a0001001428a0c10a0001001010618404",
+  "parts": [
+   {
+    "id": "eyes-little-owl",
+    "class": "bird",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-inkling",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-catfish",
+    "class": "aquatic",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-teal-shell",
+    "class": "aquatic",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-red-ear",
+    "class": "reptile",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-nimo",
+    "class": "aquatic",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258040",
+  "class": "aquatic",
+  "genes": "0x200000000000010002e00080c30c00000001000010410208000100142080850a0001000830404406000100041880810a0001000428a145060001001010808204",
+  "parts": [
+   {
+    "id": "eyes-little-peas",
+    "class": "beast",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-risky-bird",
+    "class": "bird",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-razor-bite",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-caterpillars",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-scarab",
+    "class": "bug",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-nimo",
+    "class": "aquatic",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258039",
+  "class": "aquatic",
+  "genes": "0x200000000000010002e01001040c0000000100082041020a0001000c288084040001000808a1850c0001000c3080810a000100142881050a0001001010808102",
+  "parts": [
+   {
+    "id": "eyes-little-owl",
+    "class": "bird",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-pink-cheek",
+    "class": "bird",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-silence-whisper",
+    "class": "plant",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-watermelon",
+    "class": "plant",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-red-ear",
+    "class": "reptile",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-nimo",
+    "class": "aquatic",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258038",
+  "class": "aquatic",
+  "genes": "0x200000000000010002010080c41000000001001010008208000100101060850a000100083040c30600010004188084040001001428a1430a000100001800420a",
+  "parts": [
+   {
+    "id": "eyes-clear",
+    "class": "aquatic",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-risky-bird",
+    "class": "bird",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-catfish",
+    "class": "aquatic",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-caterpillars",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-red-ear",
+    "class": "reptile",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-shiba",
+    "class": "beast",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258037",
+  "class": "aquatic",
+  "genes": "0x200000000000010002c10080c40c0000000100082041020a00010010108084040001001418a1830a00010010102183080001001428a1450a0001001010818102",
+  "parts": [
+   {
+    "id": "eyes-little-owl",
+    "class": "bird",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-curved-spine",
+    "class": "reptile",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-catfish",
+    "class": "aquatic",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-teal-shell",
+    "class": "aquatic",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-red-ear",
+    "class": "reptile",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-nimo",
+    "class": "aquatic",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258036",
+  "class": "aquatic",
+  "genes": "0x200000000000010002c10080c40c0000000100102841020a00010010108084040001001430a0c30a00010010108083080001001428a1450a0001001010004102",
+  "parts": [
+   {
+    "id": "eyes-telescope",
+    "class": "aquatic",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-sidebarb",
+    "class": "reptile",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-catfish",
+    "class": "aquatic",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-teal-shell",
+    "class": "aquatic",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-red-ear",
+    "class": "reptile",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-nimo",
+    "class": "aquatic",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258031",
+  "class": "plant",
+  "genes": "0x180000000000010002202090010400000001000c28604508000100141020400a000100103040410a0001000018208304000100042841440a000100040861810c",
+  "parts": [
+   {
+    "id": "eyes-blossom",
+    "class": "plant",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-seaslug",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-kotaro",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-merry",
+    "class": "beast",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-scarab",
+    "class": "bug",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-ant",
+    "class": "bug",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258029",
+  "class": "bird",
+  "genes": "0x100000000000010002412090c3080000000100102080410a0001000020a04108000100103040420c00010010208104080001001028a0c40a0001001010a0c504",
+  "parts": [
+   {
+    "id": "eyes-gero",
+    "class": "aquatic",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-seaslug",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-axie-kiss",
+    "class": "beast",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-anemone",
+    "class": "aquatic",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-anemone",
+    "class": "aquatic",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-nimo",
+    "class": "aquatic",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258028",
+  "class": "plant",
+  "genes": "0x180000000000010001010080810800000001000c0860400a000100141000830a0001000c3020c302000100140860830200010004282140060001000408204004",
+  "parts": [
+   {
+    "id": "eyes-papi",
+    "class": "plant",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-lotus",
+    "class": "plant",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-kotaro",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-unko",
+    "class": "reptile",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-scarab",
+    "class": "bug",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-ant",
+    "class": "bug",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258027",
+  "class": "plant",
+  "genes": "0x180000000000010000010040411000000001000c086084080001000c280145040001000c186043020001000c106085020001001428a140060001000408204102",
+  "parts": [
+   {
+    "id": "eyes-papi",
+    "class": "plant",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-rosa",
+    "class": "plant",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-silence-whisper",
+    "class": "plant",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-beech",
+    "class": "plant",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-red-ear",
+    "class": "reptile",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-ant",
+    "class": "bug",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258026",
+  "class": "reptile",
+  "genes": "0x280000000000010002010061041000000001001428604102000100141060840a0001001408a045020001001420a101040001001420a105080001001418a18506",
+  "parts": [
+   {
+    "id": "eyes-topaz",
+    "class": "reptile",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-pogona",
+    "class": "reptile",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-kotaro",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-scaly-spoon",
+    "class": "reptile",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-indian-star",
+    "class": "reptile",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-tiny-dino",
+    "class": "reptile",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258024",
+  "class": "plant",
+  "genes": "0x1800000000000100403000e0010c00000001000c0860430200010000080140020001000c2880c208000100041020810400010008082141020001000010404004",
+  "parts": [
+   {
+    "id": "eyes-papi",
+    "class": "plant",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-hollow",
+    "class": "plant",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-nut-cracker",
+    "class": "beast",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-antenna",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-balloon",
+    "class": "bird",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-rice",
+    "class": "beast",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258023",
+  "class": "plant",
+  "genes": "0x180000000000010003b01010410000000001000c0860410800010000080140020001000c2861430c00010004102085020001000408218202000100101080c004",
+  "parts": [
+   {
+    "id": "eyes-papi",
+    "class": "plant",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-hollow",
+    "class": "plant",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-nut-cracker",
+    "class": "beast",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-antenna",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-snail-shell",
+    "class": "bug",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-nimo",
+    "class": "aquatic",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258022",
+  "class": "aquatic",
+  "genes": "0x2000000000000100400120300104000000010010208103080001001010a1040a0001001020808406000100142081010a000100102881440a0001001010808404",
+  "parts": [
+   {
+    "id": "eyes-gero",
+    "class": "aquatic",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-inkling",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-catfish",
+    "class": "aquatic",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-scaly-spoon",
+    "class": "reptile",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-anemone",
+    "class": "aquatic",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-nimo",
+    "class": "aquatic",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258021",
+  "class": "aquatic",
+  "genes": "0x20000000000001000241204040000000000100102081040800010010108080020001001010a10408000100102081010a000100102881440a000100101080830c",
+  "parts": [
+   {
+    "id": "eyes-gero",
+    "class": "aquatic",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-tiny-fan",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-catfish",
+    "class": "aquatic",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-anemone",
+    "class": "aquatic",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-anemone",
+    "class": "aquatic",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-nimo",
+    "class": "aquatic",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258020",
+  "class": "bird",
+  "genes": "0x1000000000000100402000904100000000010008084042020001000820a1030a000100082841430c000100080821050c000100043041020c0001000020a1000c",
+  "parts": [
+   {
+    "id": "eyes-mavis",
+    "class": "bird",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-curly",
+    "class": "bird",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-hungry-bird",
+    "class": "bird",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-eggshell",
+    "class": "bird",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-spiky-wing",
+    "class": "bug",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-hare",
+    "class": "beast",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258019",
+  "class": "bird",
+  "genes": "0x1000000000000100400130004200000000010008084042020001000c28008508000100082820c2060001000808a1850c00010008304181020001000020010206",
+  "parts": [
+   {
+    "id": "eyes-mavis",
+    "class": "bird",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-curly",
+    "class": "bird",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-silence-whisper",
+    "class": "plant",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-eggshell",
+    "class": "bird",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-tri-feather",
+    "class": "bird",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-hare",
+    "class": "beast",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258018",
+  "class": "reptile",
+  "genes": "0x28000000000001000380a051030c00000001000c2840440400010014284105020001000418810506000100042880810200010004282141020001000430a18402",
+  "parts": [
+   {
+    "id": "eyes-blossom",
+    "class": "plant",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-ear-breathing",
+    "class": "bug",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-tiny-turtle",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-parasite",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-scarab",
+    "class": "bug",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-thorny-caterpillar",
+    "class": "bug",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258017",
+  "class": "beast",
+  "genes": "0x10003004080831000000001000820a080080001000010a143020001000028218006000100040881400a00010000106143060001000020010306",
+  "parts": [
+   {
+    "id": "eyes-little-owl",
+    "class": "bird",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-puppy",
+    "class": "beast",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-goda",
+    "class": "beast",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-lagging",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-hero",
+    "class": "beast",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-hare",
+    "class": "beast",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258015",
+  "class": "bird",
+  "genes": "0x10000000000001006001301103080000000100002821420a0001000c288100020001000808614006000100042861850a00010008204103020001000828410006",
+  "parts": [
+   {
+    "id": "eyes-chubby",
+    "class": "beast",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-pink-cheek",
+    "class": "bird",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-silence-whisper",
+    "class": "plant",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-parasite",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-pigeon-post",
+    "class": "bird",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-granmas-fan",
+    "class": "bird",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258013",
+  "class": "dusk",
+  "genes": "0x90000000000001000200a050c30800000001000828404204000100142821450a000100102840840a000100082841420a0001000410208104000100143060850c",
+  "parts": [
+   {
+    "id": "eyes-robin",
+    "class": "bird",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-gill",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-tiny-turtle",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-wing-horn",
+    "class": "bird",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-garish-worm",
+    "class": "bug",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-grass-snake",
+    "class": "reptile",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258012",
+  "class": "dusk",
+  "genes": "0x90000000000001000200a050c30c000000010010284044040001001428a1450a000100101881400c000100082841420a0001000410208104000100143060850c",
+  "parts": [
+   {
+    "id": "eyes-telescope",
+    "class": "aquatic",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-bubblemaker",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-tiny-turtle",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-wing-horn",
+    "class": "bird",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-garish-worm",
+    "class": "bug",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-grass-snake",
+    "class": "reptile",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258011",
+  "class": "dusk",
+  "genes": "0x90000000000001000140c050830c0000000100080880840a0001001428a1450a0001001018814204000100082841420a0001000410a14104000100143041050c",
+  "parts": [
+   {
+    "id": "eyes-mavis",
+    "class": "bird",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-bubblemaker",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-tiny-turtle",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-wing-horn",
+    "class": "bird",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-garish-worm",
+    "class": "bug",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-grass-snake",
+    "class": "reptile",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258010",
+  "class": "dusk",
+  "genes": "0x90000000000001000140a060c20c000000010010288144040001001428a0850a000100102880c202000100082841420a00010004102081040001001430608008",
+  "parts": [
+   {
+    "id": "eyes-telescope",
+    "class": "aquatic",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-gill",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-tiny-turtle",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-wing-horn",
+    "class": "bird",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-garish-worm",
+    "class": "bug",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-grass-snake",
+    "class": "reptile",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258008",
+  "class": "beast",
+  "genes": "0x10002012020840000000001000c28a0420400010008288042080001000430610204000100040860c3040001000c3041830c0001000c0860400a",
+  "parts": [
+   {
+    "id": "eyes-blossom",
+    "class": "plant",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-earwing",
+    "class": "bug",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-little-owl",
+    "class": "bird",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-lagging",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-pumpkin",
+    "class": "plant",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-carrot",
+    "class": "plant",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258005",
+  "class": "aquatic",
+  "genes": "0x200000000000010000000090c00c000000010010088104040001001010a10408000100100881050c000100102081040c00010010288104060001001010808404",
+  "parts": [
+   {
+    "id": "eyes-sleepless",
+    "class": "aquatic",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-nimo",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-catfish",
+    "class": "aquatic",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-anemone",
+    "class": "aquatic",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-anemone",
+    "class": "aquatic",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-nimo",
+    "class": "aquatic",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258004",
+  "class": "reptile",
+  "genes": "0x28000000000001000100e0208408000000010014106083040001000c0800420a0001001418a1030200010008282183040001000018210304000100101081810c",
+  "parts": [
+   {
+    "id": "eyes-tricky",
+    "class": "reptile",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-curved-spine",
+    "class": "reptile",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-serious",
+    "class": "plant",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-wing-horn",
+    "class": "bird",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-jaguar",
+    "class": "beast",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-nimo",
+    "class": "aquatic",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12258001",
+  "class": "mech",
+  "genes": "0x8000000000000100024160b0830c00000001000808410304000100000800430a000100103080440c00010000300184040001000808018406000100002801400a",
+  "parts": [
+   {
+    "id": "eyes-mavis",
+    "class": "bird",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-seaslug",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-nut-cracker",
+    "class": "beast",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-arco",
+    "class": "beast",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-balloon",
+    "class": "bird",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-nut-cracker",
+    "class": "beast",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257999",
+  "class": "mech",
+  "genes": "0x800000000000010001c1c0c0c408000000010010108080020001000c280101040001000020814402000100000820400200010000100080040001000028010008",
+  "parts": [
+   {
+    "id": "eyes-clear",
+    "class": "aquatic",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-zen",
+    "class": "beast",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-silence-whisper",
+    "class": "plant",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-little-branch",
+    "class": "beast",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-hero",
+    "class": "beast",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-nut-cracker",
+    "class": "beast",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257998",
+  "class": "dawn",
+  "genes": "0x88000000000001000240e090821000000001001008a0800400010000200103020001000810810408000100002881010a000100083081440a000100000841800a",
+  "parts": [
+   {
+    "id": "eyes-sleepless",
+    "class": "aquatic",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-early-bird",
+    "class": "bird",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-axie-kiss",
+    "class": "beast",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-dual-blade",
+    "class": "beast",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-tri-feather",
+    "class": "bird",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-cottontail",
+    "class": "beast",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257995",
+  "class": "aquatic",
+  "genes": "0x2000000000000100000040008404000000010004104081040001000808404202000100102000450a00010010288180060001000818a1820a000100101880c404",
+  "parts": [
+   {
+    "id": "eyes-neo",
+    "class": "bug",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-inkling",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-doubletalk",
+    "class": "bird",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-oranda",
+    "class": "aquatic",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-raven",
+    "class": "bird",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-tadpole",
+    "class": "aquatic",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257994",
+  "class": "beast",
+  "genes": "0x10001700050820800000001001410a0400a0001001410814002000100000800c10200010004302185040001000008218002000100002021050a",
+  "parts": [
+   {
+    "id": "eyes-tricky",
+    "class": "reptile",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-nyan",
+    "class": "beast",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-kotaro",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-leaf-bug",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-ronin",
+    "class": "beast",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-hare",
+    "class": "beast",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257990",
+  "class": "reptile",
+  "genes": "0x28000000000001000000407084040000000100002860810a00010000080041040001000c2820c004000100001820830800010014300040020001000c30008104",
+  "parts": [
+   {
+    "id": "eyes-chubby",
+    "class": "beast",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-hollow",
+    "class": "plant",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-nut-cracker",
+    "class": "beast",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-merry",
+    "class": "beast",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-croc",
+    "class": "reptile",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-hot-butt",
+    "class": "plant",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257988",
+  "class": "bug",
+  "genes": "0x80000000000010001c1c05082080000000100100841040a0001000410814202000100041060450c0001000428214102000100042080c106000100041860c302",
+  "parts": [
+   {
+    "id": "eyes-sleepless",
+    "class": "aquatic",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-beetle-spike",
+    "class": "bug",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-pincer",
+    "class": "bug",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-parasite",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-sandal",
+    "class": "bug",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-fish-snack",
+    "class": "bug",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257987",
+  "class": "beast",
+  "genes": "0x100008160b102100000000100002800400a0001000008004002000100001000c5020001000010008004000100001061810c0001000028818506",
+  "parts": [
+   {
+    "id": "eyes-chubby",
+    "class": "beast",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-nut-cracker",
+    "class": "beast",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-nut-cracker",
+    "class": "beast",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-imp",
+    "class": "beast",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-hero",
+    "class": "beast",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-nut-cracker",
+    "class": "beast",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257986",
+  "class": "dusk",
+  "genes": "0x900000000000010002010050c30c00000001000020004108000100142881000a000100100880c406000100040800c10200010010082101020001000430808004",
+  "parts": [
+   {
+    "id": "eyes-puppy",
+    "class": "beast",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-nimo",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-tiny-turtle",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-lagging",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-hermit",
+    "class": "aquatic",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-thorny-caterpillar",
+    "class": "bug",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257985",
+  "class": "reptile",
+  "genes": "0x28000000000001000040c060c208000000010014084144080001001428a085040001000020a0440400010014182041020001000030a045060001001418a04208",
+  "parts": [
+   {
+    "id": "eyes-gecko",
+    "class": "reptile",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-zen",
+    "class": "beast",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-tiny-turtle",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-cerastes",
+    "class": "reptile",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-furball",
+    "class": "beast",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-tiny-dino",
+    "class": "reptile",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257983",
+  "class": "bug",
+  "genes": "0x80000000000010001010040820800000001000410208402000100141020850a000100040820c00c000100042820c506000100042861810a000100042020c202",
+  "parts": [
+   {
+    "id": "eyes-neo",
+    "class": "bug",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-larva",
+    "class": "bug",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-kotaro",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-parasite",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-scarab",
+    "class": "bug",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-gravel-ant",
+    "class": "bug",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257981",
+  "class": "bird",
+  "genes": "0x100000000000010002c160808404000000010014080043080001001408a104020001001008a10508000100102880c3060001001418a0c4060001000c2000c002",
+  "parts": [
+   {
+    "id": "eyes-gecko",
+    "class": "reptile",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-nimo",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-toothless-bite",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-oranda",
+    "class": "aquatic",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-green-thorns",
+    "class": "reptile",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-yam",
+    "class": "plant",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257978",
+  "class": "beast",
+  "genes": "0x1000080c0708408000000010014282144080001001028004104000100001800c20c0001001030214004000100000880c4060001000028a0830a",
+  "parts": [
+   {
+    "id": "eyes-topaz",
+    "class": "reptile",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-innocent-lamb",
+    "class": "beast",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-piranha",
+    "class": "aquatic",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-shoal-star",
+    "class": "aquatic",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-ronin",
+    "class": "beast",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-nut-cracker",
+    "class": "beast",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257976",
+  "class": "reptile",
+  "genes": "0x28000000000001000381c02084100000000100002801400a0001000008004002000100080800820200010000100083020001000c3040830a000100081881450c",
+  "parts": [
+   {
+    "id": "eyes-chubby",
+    "class": "beast",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-pink-cheek",
+    "class": "bird",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-nut-cracker",
+    "class": "beast",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-imp",
+    "class": "beast",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-pumpkin",
+    "class": "plant",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-the-last-one",
+    "class": "bird",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257975",
+  "class": "bug",
+  "genes": "0x80000000000010003008060c40800000001001410a083080001000c2880430a000100041820c208000100001820810c0001001018418404000100142020830c",
+  "parts": [
+   {
+    "id": "eyes-tricky",
+    "class": "reptile",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-ear-breathing",
+    "class": "bug",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-silence-whisper",
+    "class": "plant",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-merry",
+    "class": "beast",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-goldfish",
+    "class": "aquatic",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-snake-jar",
+    "class": "reptile",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257974",
+  "class": "dusk",
+  "genes": "0x900000000000010000804000c210000000010010108085080001001428a14002000100002840c0020001000010a0c40c0001000830414208000100043081800a",
+  "parts": [
+   {
+    "id": "eyes-clear",
+    "class": "aquatic",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-puppy",
+    "class": "beast",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-tiny-turtle",
+    "class": "reptile",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-imp",
+    "class": "beast",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-tri-feather",
+    "class": "bird",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-thorny-caterpillar",
+    "class": "bug",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257972",
+  "class": "bug",
+  "genes": "0x8000000000001000300a040840c00000001001410a08504000100041020830a000100001820c00a00010000182081040001001018a1020c000100142061830a",
+  "parts": [
+   {
+    "id": "eyes-tricky",
+    "class": "reptile",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-innocent-lamb",
+    "class": "beast",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-pincer",
+    "class": "bug",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-merry",
+    "class": "beast",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-goldfish",
+    "class": "aquatic",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-snake-jar",
+    "class": "reptile",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257971",
+  "class": "bug",
+  "genes": "0x8000000000001004001c0a1030000000001000408608004000100041020810400010000180181080001000030018404000100101060c304000100000860c306",
+  "parts": [
+   {
+    "id": "eyes-bookworm",
+    "class": "bug",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-innocent-lamb",
+    "class": "beast",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-pincer",
+    "class": "bug",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-arco",
+    "class": "beast",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-blue-moon",
+    "class": "aquatic",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-cottontail",
+    "class": "beast",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257970",
+  "class": "bug",
+  "genes": "0x8000000000001000140a05082080000000100040820830800010008202081040001000c2820c106000100042881010a000100040820800c0001000418404306",
+  "parts": [
+   {
+    "id": "eyes-bookworm",
+    "class": "bug",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-hollow",
+    "class": "plant",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-hungry-bird",
+    "class": "bird",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-parasite",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-snail-shell",
+    "class": "bug",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-fish-snack",
+    "class": "bug",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257969",
+  "class": "beast",
+  "genes": "0x10002c040b103040000000100002080800800010000080043040001000c20404408000100003001420800010010186080080001000010410008",
+  "parts": [
+   {
+    "id": "eyes-puppy",
+    "class": "beast",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-sakura",
+    "class": "plant",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-nut-cracker",
+    "class": "beast",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-arco",
+    "class": "beast",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-goldfish",
+    "class": "aquatic",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-rice",
+    "class": "beast",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257967",
+  "class": "dusk",
+  "genes": "0x90000000000001000080e020410c000000010010108104040001000420210304000100101881040200010004106081040001000418a04406000100101080820c",
+  "parts": [
+   {
+    "id": "eyes-clear",
+    "class": "aquatic",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-bubblemaker",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-cute-bunny",
+    "class": "bug",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-antenna",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-buzz-buzz",
+    "class": "bug",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-nimo",
+    "class": "aquatic",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257966",
+  "class": "dusk",
+  "genes": "0x90000000000001000200e02041040000000100101081050400010004202103040001000408810008000100041020810c000100140880c5020001001010a1420c",
+  "parts": [
+   {
+    "id": "eyes-clear",
+    "class": "aquatic",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-larva",
+    "class": "bug",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-cute-bunny",
+    "class": "bug",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-antenna",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-bone-sail",
+    "class": "reptile",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-nimo",
+    "class": "aquatic",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ },
+ {
+  "id": "12257965",
+  "class": "dusk",
+  "genes": "0x900000000000010002c0e020c20c000000010004208084040001000c1080810800010010088102040001000410208508000100140820c5020001000008808404",
+  "parts": [
+   {
+    "id": "eyes-nerdy",
+    "class": "bug",
+    "type": "eyes",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "ears-nimo",
+    "class": "aquatic",
+    "type": "ears",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "mouth-zigzag",
+    "class": "plant",
+    "type": "mouth",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "horn-antenna",
+    "class": "bug",
+    "type": "horn",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "back-bone-sail",
+    "class": "reptile",
+    "type": "back",
+    "rarity": "",
+    "level": 1
+   },
+   {
+    "id": "tail-cottontail",
+    "class": "beast",
+    "type": "tail",
+    "rarity": "",
+    "level": 1
+   }
+  ]
+ }
+]

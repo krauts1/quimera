@@ -1,0 +1,30 @@
+{
+  "name": "quimera",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "QUIMERA — Axie Vibeathon 2026 entry. You are the Chimera: hunt Axies, graft their parts, become the monster.",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "dev:lan": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "build:deploy": "tsc --noEmit && QUIMERA_DEPLOY=1 vite build --outDir dist-next && node scripts/prune-assets.mjs --copy dist-next/assets/axie && mkdir -p dist-next/data && cp public/data/axies.json dist-next/data/ && ([ -d public/audio ] && cp -R public/audio dist-next/audio || true) && cp vercel.json dist-next/ && rm -rf dist && mv dist-next dist",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "balance": "esbuild scripts/balance.ts --bundle --format=esm --platform=node --outfile=node_modules/.cache/quimera-balance.mjs --log-level=warning && node node_modules/.cache/quimera-balance.mjs",
+    "copy-axie-assets": "axie-mixer-copy-assets public/assets/axie"
+  },
+  "dependencies": {
+    "@jaatster/threejs-axie-mixer3d-public": "github:jaatster/threejs-axie-mixer3d-public#812f0ee47066661f3b3d84a346d6a82f4758e1c0",
+    "three": "0.178.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "@types/three": "^0.178.0",
+    "typescript": "^5.6.0",
+    "vite": "^6.0.0",
+    "vitest": "^2.1.0"
+  }
+}

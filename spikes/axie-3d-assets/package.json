@@ -1,0 +1,28 @@
+{
+  "name": "axie-3d-assets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Animated Axie mascot and Sapidae GLB assets for approved Axie projects.",
+  "type": "module",
+  "scripts": {
+    "catalog": "node scripts/validate-assets.mjs --write",
+    "validate:assets": "node scripts/validate-assets.mjs",
+    "validate:public": "node scripts/validate-public-surface.mjs",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "check": "npm run validate:assets && npm run validate:public && npm run build",
+    "test": "npm run check"
+  },
+  "dependencies": {
+    "three": "0.178.0"
+  },
+  "devDependencies": {
+    "@gltf-transform/core": "4.5.0",
+    "@gltf-transform/extensions": "4.5.0",
+    "gltf-validator": "2.0.0-dev.3.10",
+    "vite": "7.3.6"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}

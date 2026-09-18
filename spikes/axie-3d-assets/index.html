@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Preview the animated Axie mascot and Sapidae 3D assets included in this repository."
+    />
+    <title>Axie 3D Assets</title>
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="intro">
+        <p class="eyebrow">Community asset preview</p>
+        <h1>Axie 3D Assets</h1>
+        <p>Pick a model, try its animation clips, then download the same GLB from the repository.</p>
+      </header>
+
+      <section class="viewer" aria-label="Interactive 3D model preview">
+        <div id="canvas-wrap" class="canvas-wrap" aria-label="3D preview canvas"></div>
+        <div id="viewer-status" class="viewer-status" role="status" aria-live="polite">
+          Loading asset catalog…
+        </div>
+      </section>
+
+      <aside id="controls" class="controls">
+        <label for="model-select">Model</label>
+        <select id="model-select" disabled></select>
+
+        <div class="model-meta">
+          <strong id="model-name">Loading…</strong>
+          <span id="model-detail"></span>
+        </div>
+
+        <div>
+          <h2>Animations</h2>
+          <div id="animation-buttons" class="animation-buttons"></div>
+        </div>
+
+        <a id="download-link" class="download-link" download>Download this GLB</a>
+        <p class="hint">Drag to rotate. Scroll or pinch to zoom.</p>
+      </aside>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+{
+  "name": "@jaatster/threejs-axie-mixer3d-public",
+  "version": "0.1.0-alpha.0",
+  "description": "A Three.js runtime for assembling and animating modular 3D Axies in approved Axie projects.",
+  "private": true,
+  "license": "SEE LICENSE IN RIGHTS.md",
+  "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./three": {
+      "types": "./dist/types/three.d.ts",
+      "import": "./dist/three.js"
+    },
+    "./rendering": {
+      "types": "./dist/types/rendering.d.ts",
+      "import": "./dist/rendering.js"
+    },
+    "./creator": {
+      "types": "./dist/types/creator-api.d.ts",
+      "import": "./dist/creator-api.js"
+    },
+    "./creator/dom": {
+      "types": "./dist/types/creator-dom.d.ts",
+      "import": "./dist/creator-dom.js"
+    },
+    "./compat": {
+      "types": "./dist/types/compat.d.ts",
+      "import": "./dist/compat.js"
+    },
+    "./styles.css": "./dist/styles.css",
+    "./content-integrity.json": "./content-integrity.json",
+    "./content/*": "./public/assets/axie/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "public/assets/axie",
+    "scripts/copy-assets.mjs",
+    "content-integrity.json",
+    "CHANGELOG.md",
+    "README.md",
+    "RIGHTS.md",
+    "SECURITY.md",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "scripts": {
+    "clean": "node scripts/clean.mjs",
+    "dev": "vite --config vite.demo.config.ts --host 127.0.0.1",
+    "build:lib": "vite build --config vite.lib.config.ts",
+    "build:types": "tsc -p tsconfig.build.json && node scripts/fix-declarations.mjs",
+    "build:demo": "vite build --config vite.demo.config.ts",
+    "build": "npm run clean && npm run build:lib && npm run build:types && npm run build:demo",
+    "prepare": "npm run build:lib && npm run build:types",
+    "typecheck": "tsc --noEmit",
+    "test:runtime": "npm run build:lib && node --test test/*.test.mjs",
+    "test:content": "node scripts/validate-content.mjs",
+    "test:self-contained": "node scripts/validate-self-contained.mjs",
+    "test": "npm run typecheck && npm run test:runtime && npm run test:content && npm run test:self-contained && npm run build",
+    "preview": "vite preview --config vite.demo.config.ts --host 127.0.0.1",
+    "copy-assets": "node scripts/copy-assets.mjs"
+  },
+  "bin": {
+    "axie-mixer-copy-assets": "./scripts/copy-assets.mjs"
+  },
+  "peerDependencies": {
+    "three": ">=0.178.0 <0.179.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.1",
+    "@types/three": "0.178.1",
+    "three": "0.178.0",
+    "typescript": "5.8.3",
+    "vite": "8.1.4"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaatster/threejs-axie-mixer3d-public.git"
+  },
+  "homepage": "https://github.com/jaatster/threejs-axie-mixer3d-public#readme",
+  "bugs": {
+    "url": "https://github.com/jaatster/threejs-axie-mixer3d-public/issues"
+  }
+}

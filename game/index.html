@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>QUIMERA — Hunt. Tear. Become.</title>
+  <meta name="description" content="You are the Chimera of Lunacia: hunt fleeing Axies, tear off their real parts and graft them onto your body. Browser action-roguelike — Axie Vibeathon 2026." />
+  <meta property="og:title" content="QUIMERA — Hunt. Tear. Become." />
+  <meta property="og:description" content="Hunt Axies, tear off their parts, become the monster. Survive the final wave. Desktop & mobile, no account, no wallet." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0d1024" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='34' r='26' fill='%235a24a8'/%3E%3Ccircle cx='24' cy='28' r='7' fill='%23fff2c0'/%3E%3Ccircle cx='42' cy='24' r='5' fill='%23fff2c0'/%3E%3Ccircle cx='25' cy='29' r='3' fill='%230a0a14'/%3E%3Ccircle cx='43' cy='25' r='2' fill='%230a0a14'/%3E%3Cpath d='M22 46 L32 52 L42 44' stroke='%23f6b73c' stroke-width='6' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" />
+  <style>
+    html, body { margin: 0; height: 100%; background: #0a0a14; overflow: hidden; }
+    #boot {
+      position: fixed; inset: 0; display: grid; place-items: center;
+      color: #cfd2e8; font: 14px/1.7 ui-monospace, monospace; pointer-events: none;
+      text-align: center;
+    }
+    #boot .logo {
+      font-size: 38px; letter-spacing: 10px; color: #f2ecff; margin-bottom: 10px;
+      animation: bootGlow 2.4s ease-in-out infinite;
+    }
+    #boot .pulse { animation: bootPulse 1.6s ease-in-out infinite; color: #b8a5ff; }
+    #boot .hint { font-size: 11px; opacity: .55; margin-top: 14px; }
+    @keyframes bootGlow {
+      0%, 100% { text-shadow: 0 0 20px #9a5cff66; }
+      50% { text-shadow: 0 0 42px #b47affcc; }
+    }
+    @keyframes bootPulse { 0%, 100% { opacity: .9; } 50% { opacity: .3; } }
+  </style>
+</head>
+<body>
+  <div id="boot">
+    <div>
+      <div class="logo">QUIMERA</div>
+      <div class="pulse">awakening the Chimera…</div>
+      <div class="hint">first visit downloads the moon — the next ones are instant</div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

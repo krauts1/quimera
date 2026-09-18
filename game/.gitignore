@@ -1,0 +1,10 @@
+# pack sellado del mixer: NO se redistribuye (RIGHTS.md del toolkit);
+# se regenera con `npm run copy-axie-assets`
+public/assets/axie/
+
+node_modules/
+dist/
+dist-next/
+*.log
+.DS_Store
+.gstack/

@@ -1,0 +1,127 @@
+.axie-animation-host {
+  --anim-accent: #c9ff64;
+  --anim-ink: #fbf8ff;
+  --anim-muted: #b9b0cd;
+  position: absolute;
+  z-index: 9;
+  inset: 0;
+  pointer-events: none;
+}
+
+.axie-animation-host[data-active="false"] { display: none; }
+
+.axie-animation-toggle {
+  position: absolute;
+  top: max(166px, calc(env(safe-area-inset-top) + 146px));
+  right: max(24px, env(safe-area-inset-right));
+  display: grid;
+  grid-template-columns: 26px auto auto;
+  min-height: 40px;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 7px 5px 6px;
+  border: 1px solid rgba(255,255,255,.16);
+  border-radius: 14px;
+  color: var(--anim-ink);
+  background: rgba(22,15,42,.82);
+  box-shadow: 0 12px 34px rgba(8,3,22,.24);
+  backdrop-filter: blur(18px) saturate(1.15);
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.axie-animation-toggle > span {
+  display: grid;
+  width: 26px;
+  height: 26px;
+  place-items: center;
+  border-radius: 9px;
+  color: #17210b;
+  background: var(--anim-accent);
+  font-size: 9px;
+}
+
+.axie-animation-toggle b { font: 700 9px/1 "DM Mono", monospace; letter-spacing: .12em; }
+.axie-animation-toggle i { padding: 5px 6px; border-radius: 7px; color: var(--anim-muted); background: rgba(255,255,255,.055); font: 700 8px/1 "DM Mono", monospace; font-style: normal; }
+.axie-animation-toggle:hover, .axie-animation-toggle:focus-visible { border-color: rgba(201,255,100,.65); outline: none; }
+
+.axie-animation-panel {
+  position: absolute;
+  top: 16px;
+  right: max(16px, env(safe-area-inset-right));
+  bottom: 74px;
+  display: grid;
+  grid-template-rows: auto auto auto auto minmax(0,1fr) auto;
+  width: min(360px, calc(100vw - 32px));
+  overflow: hidden;
+  border: 1px solid rgba(235,224,255,.15);
+  border-radius: 22px;
+  opacity: 0;
+  color: var(--anim-ink);
+  background: radial-gradient(circle at 100% 0, rgba(115,199,255,.14), transparent 32%), rgba(20,14,38,.96);
+  box-shadow: -18px 24px 80px rgba(7,3,18,.4);
+  backdrop-filter: blur(24px) saturate(1.18);
+  transform: translateX(calc(100% + 32px));
+  transition: opacity .2s ease, transform .28s cubic-bezier(.2,.8,.2,1);
+  pointer-events: none;
+}
+
+.axie-animation-host[data-open="true"] .axie-animation-panel { opacity: 1; transform: translateX(0); pointer-events: auto; }
+.axie-animation-host[data-open="true"] .axie-animation-toggle { opacity: 0; pointer-events: none; }
+
+.axie-animation-header { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 14px; padding: 20px 20px 14px; }
+.axie-animation-kicker { display: block; margin-bottom: 5px; color: var(--anim-accent); font: 700 8px/1 "DM Mono", monospace; letter-spacing: .17em; }
+.axie-animation-header h2 { margin: 0; font-size: 26px; line-height: 1; letter-spacing: -.04em; }
+.axie-animation-header p { margin: 7px 0 0; color: var(--anim-muted); font-size: 11px; line-height: 1.4; }
+.axie-animation-close { width: 34px; height: 34px; padding: 0 0 3px; border: 1px solid rgba(235,224,255,.15); border-radius: 50%; color: var(--anim-muted); background: rgba(255,255,255,.04); cursor: pointer; font-size: 22px; }
+
+.axie-animation-now { display: grid; grid-template-columns: auto minmax(0,1fr) auto; align-items: center; gap: 8px; margin: 0 20px; padding: 8px 9px; border: 1px solid rgba(201,255,100,.14); border-radius: 11px; background: rgba(201,255,100,.055); }
+.axie-animation-now > span { color: var(--anim-muted); font: 700 8px/1 "DM Mono", monospace; text-transform: uppercase; letter-spacing: .1em; }
+.axie-animation-now strong { overflow: hidden; color: var(--anim-accent); font: 700 9px/1 "DM Mono", monospace; text-overflow: ellipsis; white-space: nowrap; }
+.axie-animation-now button { padding: 6px 7px; border: 1px solid rgba(201,255,100,.24); border-radius: 8px; color: var(--anim-accent); background: transparent; cursor: pointer; font: 700 8px/1 "DM Mono", monospace; }
+.axie-animation-now button:disabled { opacity: .35; cursor: default; }
+
+.axie-animation-weapon { display: grid; grid-template-columns: auto minmax(0,1fr) auto; align-items: center; gap: 8px; margin: 9px 20px 0; }
+.axie-animation-weapon > span { color: var(--anim-muted); font: 700 8px/1 "DM Mono", monospace; text-transform: uppercase; letter-spacing: .1em; }
+.axie-animation-weapon select { min-width: 0; height: 32px; padding: 0 8px; border: 1px solid rgba(235,224,255,.13); border-radius: 9px; outline: none; color: var(--anim-ink); background: rgba(255,255,255,.045); font: 700 9px/1 "DM Mono", monospace; }
+.axie-animation-weapon select:focus { border-color: rgba(201,255,100,.55); }
+.axie-animation-weapon small { color: rgba(185,176,205,.68); font: 700 7px/1 "DM Mono", monospace; white-space: nowrap; }
+
+.axie-animation-tools { display: grid; grid-template-columns: minmax(0,1fr) 104px; gap: 7px; padding: 11px 20px 9px; }
+.axie-animation-tools input, .axie-animation-tools select { min-width: 0; height: 34px; border: 1px solid rgba(235,224,255,.13); border-radius: 9px; outline: none; color: var(--anim-ink); background: rgba(255,255,255,.045); font: 600 9px/1 "DM Mono", monospace; }
+.axie-animation-tools input { padding: 0 10px; }
+.axie-animation-tools select { padding: 0 7px; }
+.axie-animation-tools input:focus, .axie-animation-tools select:focus { border-color: rgba(201,255,100,.55); }
+
+.axie-animation-results { min-height: 0; padding: 0 14px 18px 20px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: rgba(201,255,100,.28) transparent; }
+.axie-animation-group + .axie-animation-group { margin-top: 13px; }
+.axie-animation-group h3 { display: flex; align-items: center; gap: 7px; margin: 0 0 6px; color: var(--anim-muted); font: 700 8px/1 "DM Mono", monospace; letter-spacing: .13em; text-transform: uppercase; }
+.axie-animation-group h3 i { padding: 3px 5px; border-radius: 5px; color: rgba(251,248,255,.55); background: rgba(255,255,255,.05); font-style: normal; }
+.axie-animation-group > div { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 6px; }
+.axie-animation-button { min-width: 0; padding: 8px 9px; border: 1px solid rgba(235,224,255,.1); border-radius: 9px; color: rgba(251,248,255,.76); background: rgba(255,255,255,.025); cursor: pointer; text-align: left; }
+.axie-animation-button span { display: block; overflow: hidden; font-size: 10px; font-weight: 700; text-overflow: ellipsis; white-space: nowrap; }
+.axie-animation-button small { display: block; margin-top: 5px; color: rgba(185,176,205,.62); font: 700 7px/1 "DM Mono", monospace; letter-spacing: .06em; }
+.axie-animation-button:hover, .axie-animation-button:focus-visible { border-color: rgba(201,255,100,.45); color: #fff; outline: none; }
+.axie-animation-button[aria-pressed="true"] { border-color: var(--anim-accent); color: #17210b; background: var(--anim-accent); }
+.axie-animation-button[aria-pressed="true"] small { color: rgba(23,33,11,.62); }
+.axie-animation-empty { margin: 16px 20px; color: var(--anim-muted); font-size: 11px; }
+
+@media (max-width: 700px) {
+  .axie-animation-toggle { top: 246px; right: 18px; }
+  .axie-animation-panel { inset: 12px 12px 62px auto; width: min(350px, calc(100vw - 24px)); }
+}
+
+@media (max-width: 430px) {
+  /* Keep floating controls below the full-width Axie loader/showcase card. */
+  .axie-animation-toggle {
+    top: auto;
+    bottom: max(204px, calc(env(safe-area-inset-bottom) + 188px));
+  }
+  .axie-animation-toggle b { display: none; }
+  .axie-animation-panel { left: 12px; width: auto; }
+  .axie-animation-group > div { grid-template-columns: 1fr; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .axie-animation-panel { transition-duration: .01ms; }
+}

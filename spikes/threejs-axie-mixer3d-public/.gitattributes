@@ -1,0 +1,8 @@
+*.axanim binary
+*.bc1 binary
+*.glb binary
+*.jpg binary
+*.ktx2 binary
+*.png binary
+*.webp binary
+public/assets/axie/shaders/source/** whitespace=-trailing-space
